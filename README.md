@@ -4,9 +4,9 @@
 
 ## Table of Contents
 - [Project Overview](#ProjectOverview)   
-  * [What is our Topic](#WhatTopic)
+  * [What is our Topic?](#WhatTopic)
   * [Why Energy Consumption?](#WhyEnergyConsumption)
-  * [Questions we hope to answer](#Questions)
+  * [What questions are we hoping to answer?](#Questions)
   * [Approach?](#Approach)
 - [Database](#Database)
   * [Schema](#DBSchema)
