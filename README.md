@@ -33,7 +33,7 @@
 
 ### <a name="DBSchema"></a> Schema
 
-### <a name="Preprocessing"></a> Data Preprocessing
+### <a name="Preprocessing"></a> Preprocessing of Data
 
 ## <a name="Analysis"></a> Analysis & Visualizations
 
@@ -54,5 +54,7 @@ We used the below technologies while completing this project:
 ## <a name="Resources"></a> Resources
 
 [1] **Data Files:** <br>
-- [DataFiles](Resources/DataFiles) <br>
+- [Kaggle DataFiles](Resources/DataFiles) <br>
 
+[2] **API's:** <br>
+- [The U.S. Energy Information Administration API](https://www.eia.gov/opendata/) <br>
