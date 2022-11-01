@@ -51,6 +51,10 @@ We used the below technologies while completing this project:
 
 ## <a name="CommunicationProtocols"></a> Communication Protocols
 
+**Slack** – A messaging tool we used to coordinate meetings, send links and data <br>
+**Microsoft Teams/Zoom** – We held meetings using Microsoft Teams and Zoom platforms <br>
+**GitHub** – We utilized GitHub for Version management and collaboration. <br>
+
 ## <a name="Resources"></a> Resources
 
 [1] **Data Files:** <br>
