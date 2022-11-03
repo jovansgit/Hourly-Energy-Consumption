@@ -19,7 +19,7 @@
 
 ## <a name="ProjectOverview"></a> Project Overview
 
-### <a name="WhatTopic"></a> What is our Topic? 
+### <a name="WhatTopic"></a> What is our Topic?
 
 ### <a name="WhyEnergyConsumption"></a> Why Energy Consumption?
 
