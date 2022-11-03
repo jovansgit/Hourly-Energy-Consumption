@@ -7,6 +7,7 @@
   * [What is our Topic?](#WhatTopic)
   * [Why Energy Consumption?](#WhyEnergyConsumption)
   * [What questions are we hoping to answer?](#Questions)
+  * [Description of Source Data](#DescriptionOfSourceData)
   * [Approach?](#Approach)
 - [Database](#Database)
   * [Schema](#DBSchema)
@@ -29,6 +30,8 @@ According to un.org, The world’s population is projected to reach 8 billion on
 * Can we build a model to predict energy consumption for the following year?
 * Can we identify any trends in energy consumption?
 * What is the predictive rate for a particular day?
+
+### <a name="DescriptionOfSourceData"></a> Description of our Source Data
 
 ### <a name="Approach"></a> Approach:
 
