@@ -3,7 +3,7 @@
 
 
 ## Table of Contents
-- [Project Overview](#ProjectOverview)   
+- [Project Overview](#ProjectOverview)
   * [What is our Topic?](#WhatTopic)
   * [Why Energy Consumption?](#WhyEnergyConsumption)
   * [What questions are we hoping to answer?](#Questions)
