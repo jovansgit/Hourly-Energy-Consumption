@@ -28,7 +28,7 @@ According to un.org, The world’s population is projected to reach 8 billion on
 ### <a name="Questions"></a> Questions we hope to answer with Data
 * Can we build a model to predict energy consumption for the following year?
 * Can we identify any trends in energy consumption?
-* What is the predictive rate for a particular day
+* What is the predictive rate for a particular day?
 
 ### <a name="Approach"></a> Approach:
 
