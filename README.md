@@ -35,6 +35,7 @@ According to un.org, The world’s population is projected to reach 8 billion on
 ## <a name="Database"></a> Database
 
 ### <a name="DBSchema"></a> Schema
+<img src="Resources/Static/Images/SchemaForSegment1.png">
 
 ### <a name="Preprocessing"></a> Preprocessing of Data
 * Add season and time of day attributes to the data for additional analysis 
