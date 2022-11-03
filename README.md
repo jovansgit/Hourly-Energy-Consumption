@@ -20,7 +20,7 @@
 ## <a name="ProjectOverview"></a> Project Overview
 
 ### <a name="WhatTopic"></a> What is our Topic? 
-Our topic is energy consumption. 
+Our topic is energy consumption
 
 ### <a name="WhyEnergyConsumption"></a> Why Energy Consumption?
 According to un.org, The world’s population is projected to reach 8 billion on November 15th, 2022.  The latest projections by the United Nations suggest that the global population could grow to around 8.5 billion in 2030, 9.7 billion in 2050, and 10.4 billion in 2100.  As our population increases so do our energy needs.  Those rising energy needs will not only influence our lives but will also affect the lives of our children.  Climate change, energy shortages, and increased energy costs are just scratching the surface of the impact.  To aid in kickstarting the conversation, we would like to build a model predicting the total amount of energy consumption and the rate of energy consumption, for a particular region.  We hope that our model may spark a desire for people to lead a more energy-efficient life.
