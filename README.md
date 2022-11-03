@@ -1,4 +1,4 @@
-# Hourly-Energy-Consumption 
+# Hourly-Energy-Consumption
 <img src="Resources/Static/Images/energy.jpg" align="center" height="300" width="1200">
 
 
