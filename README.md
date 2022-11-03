@@ -27,7 +27,7 @@
 * Can we build a model to predict energy consumption for the following year?
 * Can we identify any trends in energy consumption?
 
-### <a name="Approach"></a> Approach
+### <a name="Approach"></a> Approach:
 
 ## <a name="Database"></a> Database
 
