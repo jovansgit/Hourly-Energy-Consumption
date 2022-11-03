@@ -34,7 +34,7 @@
 ### <a name="DBSchema"></a> Schema
 
 ### <a name="Preprocessing"></a> Preprocessing of Data
-* Add season and time of day attributes to the data for additional analysis
+* Add season and time of day attributes to the data for additional analysis 
 
 ## <a name="Analysis"></a> Analysis & Visualizations
 
