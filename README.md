@@ -69,4 +69,5 @@ We used the below technologies while completing this project:
 - [Kaggle DataFiles](Resources/DataFiles) <br>
 
 [2] **API's:** <br>
-- [The U.S. Energy Information Administration API](https://www.eia.gov/opendata/) <br>
+- [The U.S. Energy Information Administration API](https://www.eia.gov/opendata/)
+- [Open Weather API](https://openweathermap.org/api) <br>
