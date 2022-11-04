@@ -29,7 +29,6 @@ According to un.org, The world’s population is projected to reach 8 billion on
 ### <a name="Questions"></a> Questions we hope to answer with Data
 * Can we build a model to predict energy consumption for the following year?
 * Can we identify any trends in energy consumption?
-* What is the predictive rate for a particular day?
 
 ### <a name="DescriptionOfSourceData"></a> Description of our Source Data
 
@@ -46,6 +45,7 @@ According to un.org, The world’s population is projected to reach 8 billion on
 ## <a name="Analysis"></a> Analysis & Visualizations
 
 ## <a name="MachineLearningModel"></a> Machine Learning Models
+We are using a superivised model because we are using labled data. More specfically, our model will be multiple linear regression because we are predicting energy consumption in megawatts using multiple independent variables. Our target variable will be megawatts used per hour. Our features will be tempearture,cloud cover,humidity,precipitation,dew point,season,wind speed,and wind direction. 
 
 ## <a name="Technologies"></a> Technologies
 
