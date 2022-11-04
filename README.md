@@ -31,6 +31,7 @@ According to un.org, The world’s population is projected to reach 8 billion on
 * Can we identify any trends in energy consumption?
 
 ### <a name="DescriptionOfSourceData"></a> Description of our Source Data
+We are using a data set from Kaggle which contains Date Time and Mega Watts of energy consumed to seed our database.  This data set spans from 2004-2018.  For data after 2018, we are using the EIA API.  We will also use population and regional temperature data gathered from Visual Crossings and Open Weather API's.
 
 ### <a name="Approach"></a> Approach:
 
@@ -71,3 +72,5 @@ We used the below technologies while completing this project:
 [2] **API's:** <br>
 - [The U.S. Energy Information Administration API](https://www.eia.gov/opendata/)
 - [Open Weather API](https://openweathermap.org/api) <br>
+- [Visual Crossing Weather API](https://www.visualcrossing.com/weather-api) <br>
+- [US Census Population Data](https://www.census.gov/data/developers/data-sets/popest-popproj/popest.html) <br>
