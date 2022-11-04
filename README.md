@@ -1,5 +1,5 @@
 # Hourly-Energy-Consumption 
-<img src="Resources/Static/Images/energy.jpg" align="center" height="300" width="1200">
+![image](https://github.com/jovansgit/Hourly-Energy-Consumption/blob/Alton's-Branch/Resources/Static/Images/Energy_pic.jpg?raw=true)
 
 
 ## Table of Contents
