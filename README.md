@@ -45,7 +45,7 @@ According to un.org, The world’s population is projected to reach 8 billion on
 ## <a name="Analysis"></a> Analysis & Visualizations
 
 ## <a name="MachineLearningModel"></a> Machine Learning Models
-We are using a superivised model because we are using labled data. More specfically, our model will be multiple linear regression because we are predicting energy consumption in megawatts using multiple independent variables. Our target variable will be megawatts used per hour. Our features will be tempearture,cloud cover,humidity,precipitation,dew point,season,wind speed,and wind direction. 
+We are using a superivised model because we are using labled data. More specfically, our model will be multiple linear regression because we are predicting energy consumption in megawatts using multiple independent variables. Our target variable will be megawatts used per hour. Our features will be tempearture,cloud cover,humidity,precipitation,dew point,season,wind speed,and wind direction,population. 
 
 ## <a name="Technologies"></a> Technologies
 
