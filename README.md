@@ -32,6 +32,7 @@
 ## <a name="Database"></a> Database
 
 ### <a name="DBSchema"></a> Schema
+![image](https://github.com/jovansgit/Hourly-Energy-Consumption/blob/Alton's-Branch/Schema%20for%20Final%20Project.png?raw=true)
 
 ### <a name="Preprocessing"></a> Preprocessing of Data
 
