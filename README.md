@@ -41,12 +41,15 @@ We are using a data set from Kaggle which contains Date Time and Mega Watts of e
 <img src="Resources/Static/Images/SchemaForSegment1.png">
 
 ### <a name="Preprocessing"></a> Preprocessing of Data
-* Add season and time of day attributes to the data for additional analysis 
+* There were 4 datetimes repreated twice with 2 different energy comsumption rates. As a result we replace these duplicated datetimes with the mean energy consumption. 
+* In the dataset, we found 11 missing values in the COMED_MW columns. To fill these missing values we use mean interpolation.
+* Since we are doing a time series analyis we tested for seasonality using the seasonal decomposition function
+* Again because we are working with a time series, we did a a Augmented Dickey-Fuller test to test for stationarity
 
 ## <a name="Analysis"></a> Analysis & Visualizations
 
 ## <a name="MachineLearningModel"></a> Machine Learning Models
-We are using a superivised model because we are using labled data. More specfically, our model will be multiple linear regression because we are predicting energy consumption in megawatts using multiple independent variables. Our target variable will be megawatts used per hour. Our features will be tempearture,cloud cover,humidity,precipitation,dew point,season,wind speed, wind direction,and population. 
+ 
 
 ## <a name="Technologies"></a> Technologies
 
