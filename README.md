@@ -40,7 +40,7 @@ We are using a data set from Kaggle which contains Date Time and Mega Watts of e
 ### <a name="DBSchema"></a> Schema
 <img src="Resources/Static/Images/Updated_Schema_Seg_2.png">
 
-### <a name="Preprocessing"></a> Preprocessing of Data
+### <a name="Preprocessing"></a> Preprocessing of Data for EDA & Machine Learning Model
 * There were 4 repeated datetimes with 2 different energy comsumption rates. As a result we replaced the energy consumption value of duplicated datetimes with the mean energy consumption. 
 * In the dataset, we found 11 missing values in the COMED_MW columns. To fill these missing values we use mean interpolation.
 * Seasonality  was tested using the seasonal decomposition function 
