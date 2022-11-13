@@ -53,6 +53,7 @@ We are using a data set from Kaggle which contains Date Time and Mega Watts of e
 ## <a name="MachineLearningModel"></a> Machine Learning Models
  The machine learning model we have chosen is SARIMAX over other. We have chosen this model because it can handle seasonality and energy comsumption is seasonal by nature. We have proven that this dataset shows seasonality in our exploritory analysis. Not only does this model bring in variables for seasonality, it can also take exogenous variables which could be helpful if we want to bring in other varaibles relating to weather. 
  
+ Our data was broken into a traning set from January 1st 2014 to December 21st 2016. Our testing set was from January 1st 2017 to January 1st 2018. We chose to omit any data prior to 2014 in an effort to train our model with the most recent data. This is important for an energy consumption model as household techonolgy has increased over the years and thus energy consumption would increase as well.Since we are trying to predict the values from 2019 data from anything prior to 2014 could have significanlty lower energy consumption rates. 
 ## <a name="Technologies"></a> Technologies
 
 We used the below technologies while completing this project:
