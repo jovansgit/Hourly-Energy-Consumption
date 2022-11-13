@@ -31,9 +31,10 @@ According to un.org, The world’s population is projected to reach 8 billion on
 * Can we identify any trends in energy consumption?
 
 ### <a name="DescriptionOfSourceData"></a> Description of our Source Data
-We are using a data set from Kaggle which contains Date Time and Mega Watts of energy consumed to seed our database.  This data set spans from 2004-2018.  For data after 2018, we are using the EIA API.  We will also use population and regional temperature data gathered from Visual Crossings and Open Weather API's.
+We are using a data set from Kaggle which contains Date Time and Mega Watts of energy consumed to seed our database.  This data set spans from 2004-2018.  The original source for the energy consumption data is from the EIA.gov open data API, which has more recent readings of the data. For data after 2018, we are using the EIA.gov API.  We will also use population and regional temperature data gathered from Visual Crossings and Open Weather API's.
 
 ### <a name="Approach"></a> Approach:
+We're going to pull the data in a CSV format into a database table. Later append the API sourced additional consumption readings.
 
 ## <a name="Database"></a> Database
 
@@ -44,11 +45,12 @@ We are using a data set from Kaggle which contains Date Time and Mega Watts of e
 * There were 4 repeated datetimes with 2 different energy comsumption rates. As a result we replaced the energy consumption value of duplicated datetimes with the mean energy consumption. 
 * In the dataset, we found 11 missing values in the COMED_MW columns. To fill these missing values we use mean interpolation.
 * Seasonality  was tested using the seasonal decomposition function 
-* Stationarity was tested using the  Augmented Dickey-Fuller test. This test comfirmed our data is stationary. 
+* Stationarity was tested using the Augmented Dickey-Fuller test. This test comfirmed our data is stationary. 
 * The original datatime column was used to create several other date columns to depict daily and weekly trends. 
 * ACF and PACF plots were made to try to find the optimal autoregressive and moving average variables for the model
 
 ## <a name="Analysis"></a> Analysis & Visualizations
+
 
 ## <a name="MachineLearningModel"></a> Machine Learning Models
  The machine learning model we have chosen is SARIMAX. We have chosen this model because it can handle seasonality and energy comsumption is seasonal by nature. We have proven that this dataset shows seasonality in our exploritory analysis. Not only does this model bring in variables for seasonality, it can also take exogenous variables which could be helpful if we want to bring in other varaibles relating to weather. 
