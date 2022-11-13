@@ -43,14 +43,16 @@ We are using a data set from Kaggle which contains Date Time and Mega Watts of e
 ### <a name="Preprocessing"></a> Preprocessing of Data
 * There were 4 repeated datetimes with 2 different energy comsumption rates. As a result we replaced the energy consumption value of duplicated datetimes with the mean energy consumption. 
 * In the dataset, we found 11 missing values in the COMED_MW columns. To fill these missing values we use mean interpolation.
-*We tested for seasonality using the seasonal decomposition function since we are doing a time series analysis
-* We did a a Augmented Dickey-Fuller test to check for stationarity
+* Seasonality  was tested using the seasonal decomposition function 
+* Stationarity was tested using the  Augmented Dickey-Fuller test. This test comfirmed our data is stationary. 
+* The original datatime column was used to create several other date columns to depict daily and weekly trends. 
+* ACF and PACF plots were made to try to find the optimal autoregressive and moving average variables for the model
 
 ## <a name="Analysis"></a> Analysis & Visualizations
 
 ## <a name="MachineLearningModel"></a> Machine Learning Models
+ The machine learning model we have chosen is SARIMAX over other. We have chosen this model because it can handle seasonality and energy comsumption is seasonal by nature. We have proven that this dataset shows seasonality in our exploritory analysis. Not only does this model bring in variables for seasonality, it can also take exogenous variables which could be helpful if we want to bring in other varaibles relating to weather. 
  
-
 ## <a name="Technologies"></a> Technologies
 
 We used the below technologies while completing this project:
