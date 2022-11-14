@@ -50,7 +50,14 @@ We're going to pull the data in a CSV format into a database table. Later append
 * ACF and PACF plots were made to try to find the optimal autoregressive and moving average variables for the model
 
 ## <a name="Analysis"></a> Analysis & Visualizations
-
+The exploration of the data showed various aspects of the data.
+  1.  There is a cyclical pattern annually of usage with each year the peak beginning or around the 200th day of the year. This seasonality will need to be factored out to for the machine learning model. The seasonality revolves around the the usage patterns during the hottest period of the year.
+  https://github.com/jovansgit/Hourly-Energy-Consumption/blob/main/images/time_series_week_plot.png
+  https://github.com/jovansgit/Hourly-Energy-Consumption/blob/main/images/seasonal_subplots.png
+  2.  The histogram of the overall dataset 
+  https://github.com/jovansgit/Hourly-Energy-Consumption/blob/main/images/histogram.png
+  3.  Usage patterns by day and hour 
+  https://github.com/jovansgit/Hourly-Energy-Consumption/blob/main/images/boxplots.png
 
 ## <a name="MachineLearningModel"></a> Machine Learning Models
  The machine learning model we have chosen is SARIMAX. We have chosen this model because it can handle seasonality and energy comsumption is seasonal by nature. We have proven that this dataset shows seasonality in our exploritory analysis. Not only does this model bring in variables for seasonality, it can also take exogenous variables which could be helpful if we want to bring in other varaibles relating to weather. 
