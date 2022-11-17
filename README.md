@@ -58,6 +58,9 @@ We're going to pull the data in a CSV format into a database table. Later we wil
     <img src="https://github.com/jovansgit/Hourly-Energy-Consumption/blob/main/New%20folder/boxplots.png">
   3.  The subplots help us identify the unique fluctuations of energy consumption rate by year. For example, post 2013 there is not the same heavy usage, causing lower peak summer energy usage.
     <img src="https://github.com/jovansgit/Hourly-Energy-Consumption/blob/main/New%20folder/seasonal_subplots.png">
+  4.  One of the aspects of looking at time series data is seasonality. Since the amplitude of the daily data isn't consistent, we used 
+  the multiplicative process for determining seasonality (Trend * Seasonality * Residuals) and as a result the top chart has consistent amplitude and demonstrates re-occuring seasonal cycles.
+    <img src="https://github.com/jovansgit/Hourly-Energy-Consumption/blob/main/New%20folder/multiplicative_decomp.png">
 
 ## <a name="MachineLearningModel"></a> Machine Learning Models
  The machine learning model we have chosen is SARIMAX. We have chosen this model because it can handle seasonality and energy comsumption is seasonal by nature. We have proven that this dataset shows seasonality in our exploritory analysis. Not only does this model bring in variables for seasonality, it can also take exogenous variables which could be helpful if we want to bring in other varaibles relating to weather. 
