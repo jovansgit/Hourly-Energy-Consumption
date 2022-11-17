@@ -51,13 +51,13 @@ We're going to pull the data in a CSV format into a database table. Later we wil
 
 ## <a name="Analysis"></a> Analysis & Visualizations
   1. The base time series plot below demonstrates the seasonality of the data over multiple years, however the years themselves are obscured by the density of the data
-    https://github.com/jovansgit/Hourly-Energy-Consumption/blob/main/New%20folder/time_series_plot.png
+    <img src="https://github.com/jovansgit/Hourly-Energy-Consumption/blob/main/New%20folder/time_series_plot.png">
   When looking at one week of the data, the plot has clear daily seasonality, with a repeated pattern of hourly consumption rates occurring each day. We also observe an upward trend within this week of data, but this trend is likely a part of the annual seasonality we saw previously.
-    https://github.com/jovansgit/Hourly-Energy-Consumption/blob/main/New%20folder/time_series_week_plot.png
+    <img src="https://github.com/jovansgit/Hourly-Energy-Consumption/blob/main/New%20folder/time_series_week_plot.png">
   2.  The histogram of the overall dataset shows a Poisson Distribution with a longer tail to the right and a limit of zero to the right
-  https://github.com/jovansgit/Hourly-Energy-Consumption/blob/main/images/histogram.png
+    <img src="https://github.com/jovansgit/Hourly-Energy-Consumption/blob/main/images/histogram.png">
   3.  Usage patterns across different time horizons, continue to show the bulk of the readings are with in a lower ranges while there are a significant number of readings beyond the upper bounds of the box plots.
-  https://github.com/jovansgit/Hourly-Energy-Consumption/blob/main/images/boxplots.png
+    <img src="https://github.com/jovansgit/Hourly-Energy-Consumption/blob/main/images/boxplots.png">
 
 ## <a name="MachineLearningModel"></a> Machine Learning Models
  The machine learning model we have chosen is SARIMAX. We have chosen this model because it can handle seasonality and energy comsumption is seasonal by nature. We have proven that this dataset shows seasonality in our exploritory analysis. Not only does this model bring in variables for seasonality, it can also take exogenous variables which could be helpful if we want to bring in other varaibles relating to weather. 
