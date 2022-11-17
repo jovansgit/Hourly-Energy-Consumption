@@ -72,6 +72,7 @@ We used the below technologies while completing this project:
 - Python
 - SQL - PostGres DB
 - API's
+- Colaboratory - Google
 
 ## <a name="CommunicationProtocols"></a> Communication Protocols
 
