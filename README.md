@@ -50,10 +50,10 @@ We're going to pull the data in a CSV format into a database table. Later we wil
 * ACF and PACF plots were made to try to find the optimal autoregressive and moving average variables for the model
 
 ## <a name="Analysis"></a> Analysis & Visualizations
-The exploration of the data showed various aspects of the data.
-  1.  There is a cyclical pattern annually of usage with each year the peak beginning or around the 200th day of the year. This seasonality will need to be factored out to for the machine learning model. The seasonality revolves around the the usage patterns during the hottest period of the year.
-  https://github.com/jovansgit/Hourly-Energy-Consumption/blob/main/images/time_series_week_plot.png
-  https://github.com/jovansgit/Hourly-Energy-Consumption/blob/main/images/seasonal_subplots.png
+  1. The base time series plot below demonstrates the seasonality of the data over multiple years, however the years themselves are obscured by the density of the data
+    https://github.com/jovansgit/Hourly-Energy-Consumption/blob/main/New%20folder/time_series_plot.png
+  When looking at one week of the data, the plot has clear daily seasonality, with a repeated pattern of hourly consumption rates occurring each day. We also observe an upward trend within this week of data, but this trend is likely a part of the annual seasonality we saw previously.
+    https://github.com/jovansgit/Hourly-Energy-Consumption/blob/main/New%20folder/time_series_week_plot.png
   2.  The histogram of the overall dataset shows a Poisson Distribution with a longer tail to the right and a limit of zero to the right
   https://github.com/jovansgit/Hourly-Energy-Consumption/blob/main/images/histogram.png
   3.  Usage patterns across different time horizons, continue to show the bulk of the readings are with in a lower ranges while there are a significant number of readings beyond the upper bounds of the box plots.
