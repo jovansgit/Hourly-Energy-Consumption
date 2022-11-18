@@ -42,12 +42,10 @@ We're going to pull the data in a CSV format into a database table. Later we wil
 <img src="Resources/Static/Images/Updated_Schema_Seg_2.png">
 
 ### <a name="Preprocessing"></a> Preprocessing of Data for EDA & Machine Learning Model
+* The original datatime column was used to create several other date columns to depict daily and weekly trends. 
 * There were 4 repeated datetimes with 2 different energy comsumption rates. As a result we replaced the energy consumption value of duplicated datetimes with the mean energy consumption. 
 * In the dataset, we found 11 missing values in the COMED_MW columns. To fill these missing values we use mean interpolation.
 * Seasonality  was tested using the seasonal decomposition function 
-* Stationarity was tested using the Augmented Dickey-Fuller test. This test comfirmed our data is stationary. 
-* The original datatime column was used to create several other date columns to depict daily and weekly trends. 
-* ACF and PACF plots were made to try to find the optimal autoregressive and moving average variables for the model
 
 ## <a name="Analysis"></a> Analysis & Visualizations
   1. The base time series plot below demonstrates the seasonality of the data over multiple years, however the years themselves are obscured by the density of the data
