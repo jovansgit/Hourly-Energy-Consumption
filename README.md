@@ -71,7 +71,6 @@ We're going to pull the data in a CSV format into a database table. Later we wil
 We used the below technologies while completing this project:
 
 - Tableau
-- React
 - Python
 - SQL - PostGres DB
 - API's
