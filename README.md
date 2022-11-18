@@ -63,9 +63,9 @@ We're going to pull the data in a CSV format into a database table. Later we wil
     <img src="https://github.com/jovansgit/Hourly-Energy-Consumption/blob/main/New%20folder/multiplicative_decomp.png">
 
 ## <a name="MachineLearningModel"></a> Machine Learning Models
- The machine learning model we have chosen is SARIMAX. We have chosen this model because it can handle seasonality and energy comsumption is seasonal by nature. We have proven that this dataset shows seasonality in our exploritory analysis. Not only does this model bring in variables for seasonality, it can also take exogenous variables which could be helpful if we want to bring in other varaibles relating to weather. 
+  We have chosen a deep learning model,the LSTM (Long-Short Term Memory) network. We have chosen LSTM because it is able to detect both long and short term seasonal patterns. This was a good choice for our data beccause we are dealing with hourly energy consumption over the span of several years, so there will be several lengths  of seasonal trends.LSTM can triage the impact of different events, an example of this in on our data could be days with extreme weather. Some drawbacks of using LSTM is that they take longer to train and require more memeory due to having more paremeters.
  
- Our data was broken into a traning set from January 1st 2014 to December 21st 2016. Our testing set was from January 1st 2017 to January 1st 2018. We chose to omit any data prior to 2014 in an effort to train our model with the most recent data. This is important for an energy consumption model as household techonolgy has increased over the years and thus energy consumption would increase as well.Since we are trying to predict the values from 2019 data from anything prior to 2014 could have significanlty lower energy consumption rates. 
+ Our data was broken into a 85% for our training set and 15% for our testing set. Our traning set includes dates from December 31st 2011 1:00am to July 17th 2:00pm and our training set includes dates from July 17th 3:00pm to January 2nd 2018.  
 ## <a name="Technologies"></a> Technologies
 
 We used the below technologies while completing this project:
