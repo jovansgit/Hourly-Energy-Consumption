@@ -48,6 +48,12 @@ We're going to pull the data in a CSV format into a database table. Later we wil
 * Seasonality was tested using the seasonal decomposition function. We used the multiplcative method because our amplitude changes across days. 
 
 ## <a name="Analysis"></a> Analysis & Visualizations
+
+https://public.tableau.com/app/profile/jovan.simmons/viz/Hourly-Energy-Consumption/Story1?publish=yes
+
+<img src="Resources/Static/Images/Box_Plots.png">
+
+
   1. The base time series plot below demonstrates the seasonality of the data over multiple years, however the years themselves are obscured by the density of the data
     <img src="https://github.com/jovansgit/Hourly-Energy-Consumption/blob/main/New%20folder/time_series_plot.png">
   When looking at one week of the data, the plot has clear daily seasonality, with a repeated pattern of hourly consumption rates occurring each day. We also observe an upward trend within this week of data, but this trend is likely a part of the annual seasonality we saw previously.
