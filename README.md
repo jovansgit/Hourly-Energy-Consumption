@@ -45,7 +45,7 @@ We're going to pull the data in a CSV format into a database table. Later we wil
 * The original datatime column was used to create several other date columns to depict daily and weekly trends. 
 * There were 4 repeated datetimes with 2 different energy comsumption rates. As a result we replaced the energy consumption value of duplicated datetimes with the mean energy consumption. 
 * In the dataset, we found 11 missing values in the COMED_MW columns. To fill these missing values we use mean interpolation.
-* Seasonality  was tested using the seasonal decomposition function 
+* Seasonality was tested using the seasonal decomposition function. We used the multiplcative method because our amplitude changes across days. 
 
 ## <a name="Analysis"></a> Analysis & Visualizations
   1. The base time series plot below demonstrates the seasonality of the data over multiple years, however the years themselves are obscured by the density of the data
