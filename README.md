@@ -65,7 +65,7 @@ We're going to pull the data in a CSV format into a database table. Later we wil
 ## <a name="MachineLearningModel"></a> Machine Learning Models
   We have chosen a deep learning model,the LSTM (Long-Short Term Memory) network. We have chosen LSTM because it is able to detect both long and short term seasonal patterns. This was a good choice for our data beccause we are dealing with hourly energy consumption over the span of several years, so there will be several lengths  of seasonal trends.LSTM can triage the impact of different events, an example of this in on our data could be days with extreme weather. Some drawbacks of using LSTM is that they take longer to train and require more memeory due to having more paremeters.
  
- Our data was broken into a 85% for our training set and 15% for our testing set. Our traning set includes dates from December 31st 2011 1:00am to July 17th 2:00pm and our training set includes dates from July 17th 3:00pm to January 2nd 2018.  
+ Our data was broken into a 85% for our training set and 15% for our testing set. Our traning set includes dates from December 31st 2011 1:00am to July 17th 2:00pm and our training set includes dates from July 17th 3:00pm to January 2nd 2018 1:00pm.  
 ## <a name="Technologies"></a> Technologies
 
 We used the below technologies while completing this project:
