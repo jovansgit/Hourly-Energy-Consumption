@@ -69,7 +69,13 @@ https://public.tableau.com/app/profile/jovan.simmons/viz/Hourly-Energy-Consumpti
 ## <a name="MachineLearningModel"></a> Machine Learning Models
   We have chosen a deep learning model,the LSTM (Long-Short Term Memory) network. We have chosen LSTM because it is able to detect both long and short term seasonal patterns. This was a good choice for our data beccause we are dealing with hourly energy consumption over the span of several years, so there will be several lengths  of seasonal trends.LSTM can triage the impact of different events, an example of this in on our data could be days with extreme weather. Some drawbacks of using LSTM is that it takes longer to train and require more memeory due to having more paremeters.
  
- Our data was broken into a 85% for our training set and 15% for our testing set. Our traning set includes dates from December 31st 2011 1:00am to July 17th 2:00pm and our training set includes dates from July 17th 3:00pm to January 2nd 2018 1:00pm.  We created our model with 50 nuerons in the LSTM layer, 10 epochs, and 3 lags. As we continue to determine how to calculate accuracy we will see if we need to adjust any parameters or the dates in our training set. 
+  Our data was broken into a 85% for our training set and 15% for our testing set. Our traning set includes dates from December 31st 2011 1:00am to July 17th 2:00pm and our training set includes dates from July 17th 3:00pm to January 2nd 2018 1:00pm.  We created our model with 50 nuerons in the LSTM layer, 10 epochs, and 3 lags. As we continue to determine how to calculate accuracy we will see if we need to adjust any parameters or the dates in our training set. 
+
+  <img src="https://github.com/jovansgit/Hourly-Energy-Consumption/blob/main/New%20folder/ML_Model_Fit.png">
+  The deep learning model itself ran successfully and created a reasonably good approximation of the original dataset, just with out the extreme highs and lows. However without a good way to measure the variance, there isn't a good way to quantify the variance and fit.
+
+  <img src="https://github.com/jovansgit/Hourly-Energy-Consumption/blob/main/New%20folder/ML_Model_Forecast.png">
+  When using the model to predict the next week's, it provided a reasonable output. With more time tuning the hyperparameters a better result could be had, yet further testing with different weeks would be required in order to prevent overfitting of the forecast to the target week while providing poor results, if forecasting for another week period.
  
 ## <a name="Technologies"></a> Technologies
 
